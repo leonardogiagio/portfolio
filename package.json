@@ -1,11 +1,11 @@
 {
-  "name": "react-portfolio",
+  "name": "portfolio",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist -r git@github.com:leonardogiagio/react-portfolio.git",
+    "deploy": "gh-pages -d dist -r git@github.com:leonardogiagio/portfolio.git",
     "dev": "vite",
     "build": "tsc && vite build",
     "lint": "eslint src --ext ts,tsx --report-unused-disable-directives --max-warnings 0",

@@ -30,14 +30,15 @@ export function Hero() {
 					</p>
 
 					<div className="flex items-center gap-2 justify-center md:justify-start">
-						<a href="#" className="underline font-bold text-white">
+						<a href="#contact" className="underline font-bold text-white">
 							Fale Comigo
 						</a>
 
 						<span className="italic text-gray-500">ou</span>
 
 						<a
-							href="#"
+							href="./Leonardo_Giagio_CV.pdf"
+							target="_blank"
 							className="button text-gray-600 hover:text-gray-900 flex items-center gap-2"
 						>
 							<HiDownload />
